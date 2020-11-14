@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="17px" viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>link/btn_layout</title>
+    <desc>Created with Sketch.</desc>
+    <g id="#link" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="link/btn_layout" transform="translate(-69.000000, -15.000000)" stroke="#979797">
+            <g id="Group" transform="translate(0.000000, 6.000000)">
+                <line x1="81" y1="6.5" x2="81" y2="28.4468156" id="Path" transform="translate(81.000000, 17.500000) rotate(-90.000000) translate(-81.000000, -17.500000) "></line>
+                <line x1="84.6295245" y1="17.1620201" x2="92" y2="24.5324956" id="Path" transform="translate(88.500000, 21.000000) rotate(-90.000000) translate(-88.500000, -21.000000) "></line>
+                <line x1="92.3704755" y1="10.1620201" x2="85" y2="17.5324956" id="Path" transform="translate(88.500000, 14.000000) rotate(-90.000000) translate(-88.500000, -14.000000) "></line>
+            </g>
+        </g>
+    </g>
+</svg>

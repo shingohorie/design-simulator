@@ -1,0 +1,458 @@
+{
+	"breakpoints": {
+		"default": [
+			{
+				"range": {
+					"min": 375,
+					"max": 719
+				},
+				"config": {
+					"containerWidth": "none",
+					"containerWidthUnit": "px",
+					"actualContainerWidth": 375,
+					"gridCols": 6,
+					"gridGap": 15,
+					"gridUnit": "px",
+					"gridWidth": 45,
+					"actualGridWidth": 45,
+					"outerMargin": 15,
+					"magnification": 100,
+					"isBase": false
+				},
+				"modules": {
+					"base": {
+						"fontSize": 16,
+						"jumpRate": 120
+					},
+					"button": {
+						"fontSize": 16,
+						"lineHeightRate": 150,
+						"marginBottom": 32,
+						"letterSpacing": 0
+					},
+					"caption": {
+						"fontSize": 14,
+						"lineHeightRate": 170,
+						"marginBottom": 8,
+						"letterSpacing": 0
+					},
+					"h1": {
+						"fontSize": 33,
+						"lineHeightRate": 150,
+						"marginBottom": 80,
+						"letterSpacing": 0
+					},
+					"h2": {
+						"fontSize": 28,
+						"lineHeightRate": 150,
+						"marginBottom": 32,
+						"letterSpacing": 0
+					},
+					"h3": {
+						"fontSize": 23,
+						"lineHeightRate": 150,
+						"marginBottom": 32,
+						"letterSpacing": 0
+					},
+					"h4": {
+						"fontSize": 19,
+						"lineHeightRate": 150,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"lead": {
+						"fontSize": 19,
+						"lineHeightRate": 150,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"note": {
+						"fontSize": 11,
+						"lineHeightRate": 170,
+						"marginBottom": 8,
+						"letterSpacing": 0
+					},
+					"regular": {
+						"fontSize": 16,
+						"lineHeightRate": 170,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"visual": {
+						"marginBottom": 24
+					}
+				},
+				"sectionMargin": {
+					"L": 80,
+					"M": 64,
+					"S": 40,
+					"XS": 30
+				}
+			},
+			{
+				"range": {
+					"min": 720,
+					"max": 1023
+				},
+				"config": {
+					"containerWidth": 720,
+					"containerWidthUnit": "px",
+					"actualContainerWidth": 720,
+					"gridCols": 12,
+					"gridGap": 24,
+					"gridUnit": "px",
+					"gridWidth": 34,
+					"actualGridWidth": 34,
+					"outerMargin": 24,
+					"magnification": 100,
+					"isBase": true
+				},
+				"modules": {
+					"base": {
+						"fontSize": 16,
+						"jumpRate": 133
+					},
+					"button": {
+						"fontSize": 16,
+						"lineHeightRate": 150,
+						"marginBottom": 30,
+						"letterSpacing": 0
+					},
+					"caption": {
+						"fontSize": 14,
+						"lineHeightRate": 170,
+						"marginBottom": 6,
+						"letterSpacing": 0
+					},
+					"h1": {
+						"fontSize": 50,
+						"lineHeightRate": 150,
+						"marginBottom": 90,
+						"letterSpacing": 0
+					},
+					"h2": {
+						"fontSize": 38,
+						"lineHeightRate": 150,
+						"marginBottom": 48,
+						"letterSpacing": 0
+					},
+					"h3": {
+						"fontSize": 28,
+						"lineHeightRate": 150,
+						"marginBottom": 48,
+						"letterSpacing": 0
+					},
+					"h4": {
+						"fontSize": 21,
+						"lineHeightRate": 150,
+						"marginBottom": 18,
+						"letterSpacing": 0
+					},
+					"lead": {
+						"fontSize": 21,
+						"lineHeightRate": 150,
+						"marginBottom": 18,
+						"letterSpacing": 0
+					},
+					"note": {
+						"fontSize": 11,
+						"lineHeightRate": 170,
+						"marginBottom": 6,
+						"letterSpacing": 0
+					},
+					"regular": {
+						"fontSize": 16,
+						"lineHeightRate": 170,
+						"marginBottom": 18,
+						"letterSpacing": 0
+					},
+					"visual": {
+						"marginBottom": 18
+					}
+				},
+				"sectionMargin": {
+					"L": 120,
+					"M": 80,
+					"S": 70,
+					"XS": 40
+				}
+			},
+			{
+				"range": {
+					"min": 1024,
+					"max": 1279
+				},
+				"config": {
+					"containerWidth": 1024,
+					"containerWidthUnit": "px",
+					"actualContainerWidth": 1024,
+					"gridCols": 12,
+					"gridGap": 40,
+					"gridUnit": "px",
+					"gridWidth": 42,
+					"actualGridWidth": 42,
+					"outerMargin": 40,
+					"magnification": 100,
+					"isBase": false
+				},
+				"modules": {
+					"base": {
+						"fontSize": 16,
+						"jumpRate": 133
+					},
+					"button": {
+						"fontSize": 16,
+						"lineHeightRate": 150,
+						"marginBottom": 40,
+						"letterSpacing": 0
+					},
+					"caption": {
+						"fontSize": 14,
+						"lineHeightRate": 170,
+						"marginBottom": 8,
+						"letterSpacing": 0
+					},
+					"h1": {
+						"fontSize": 50,
+						"lineHeightRate": 150,
+						"marginBottom": 120,
+						"letterSpacing": 0
+					},
+					"h2": {
+						"fontSize": 38,
+						"lineHeightRate": 150,
+						"marginBottom": 64,
+						"letterSpacing": 0
+					},
+					"h3": {
+						"fontSize": 28,
+						"lineHeightRate": 150,
+						"marginBottom": 48,
+						"letterSpacing": 0
+					},
+					"h4": {
+						"fontSize": 21,
+						"lineHeightRate": 150,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"lead": {
+						"fontSize": 21,
+						"lineHeightRate": 150,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"note": {
+						"fontSize": 11,
+						"lineHeightRate": 170,
+						"marginBottom": 8,
+						"letterSpacing": 0
+					},
+					"regular": {
+						"fontSize": 16,
+						"lineHeightRate": 170,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"visual": {
+						"marginBottom": 24
+					}
+				},
+				"sectionMargin": {
+					"L": 120,
+					"M": 80,
+					"S": 70,
+					"XS": 40
+				}
+			},
+			{
+				"range": {
+					"min": 1280,
+					"max": 1599
+				},
+				"config": {
+					"containerWidth": 1280,
+					"containerWidthUnit": "px",
+					"actualContainerWidth": 1280,
+					"gridCols": 12,
+					"gridGap": 40,
+					"gridUnit": "px",
+					"gridWidth": 60,
+					"actualGridWidth": 60,
+					"outerMargin": 60,
+					"magnification": 100,
+					"isBase": false
+				},
+				"modules": {
+					"base": {
+						"fontSize": 16,
+						"jumpRate": 133
+					},
+					"button": {
+						"fontSize": 16,
+						"lineHeightRate": 150,
+						"marginBottom": 40,
+						"letterSpacing": 0
+					},
+					"caption": {
+						"fontSize": 14,
+						"lineHeightRate": 170,
+						"marginBottom": 8,
+						"letterSpacing": 0
+					},
+					"h1": {
+						"fontSize": 50,
+						"lineHeightRate": 150,
+						"marginBottom": 120,
+						"letterSpacing": 0
+					},
+					"h2": {
+						"fontSize": 38,
+						"lineHeightRate": 150,
+						"marginBottom": 64,
+						"letterSpacing": 0
+					},
+					"h3": {
+						"fontSize": 28,
+						"lineHeightRate": 150,
+						"marginBottom": 48,
+						"letterSpacing": 0
+					},
+					"h4": {
+						"fontSize": 21,
+						"lineHeightRate": 150,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"lead": {
+						"fontSize": 21,
+						"lineHeightRate": 150,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"note": {
+						"fontSize": 11,
+						"lineHeightRate": 170,
+						"marginBottom": 8,
+						"letterSpacing": 0
+					},
+					"regular": {
+						"fontSize": 16,
+						"lineHeightRate": 170,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"visual": {
+						"marginBottom": 24
+					}
+				},
+				"sectionMargin": {
+					"L": 120,
+					"M": 80,
+					"S": 70,
+					"XS": 40
+				}
+			},
+			{
+				"range": {
+					"min": 1600,
+					"max": null
+				},
+				"config": {
+					"containerWidth": 1280,
+					"containerWidthUnit": "px",
+					"actualContainerWidth": 1280,
+					"gridCols": 12,
+					"gridGap": 40,
+					"gridUnit": "px",
+					"gridWidth": 60,
+					"actualGridWidth": 60,
+					"outerMargin": 60,
+					"magnification": 125,
+					"isBase": false
+				},
+				"modules": {
+					"base": {
+						"fontSize": 16,
+						"jumpRate": 133
+					},
+					"button": {
+						"fontSize": 16,
+						"lineHeightRate": 150,
+						"marginBottom": 40,
+						"letterSpacing": 0
+					},
+					"caption": {
+						"fontSize": 14,
+						"lineHeightRate": 170,
+						"marginBottom": 8,
+						"letterSpacing": 0
+					},
+					"h1": {
+						"fontSize": 50,
+						"lineHeightRate": 150,
+						"marginBottom": 120,
+						"letterSpacing": 0
+					},
+					"h2": {
+						"fontSize": 38,
+						"lineHeightRate": 150,
+						"marginBottom": 64,
+						"letterSpacing": 0
+					},
+					"h3": {
+						"fontSize": 28,
+						"lineHeightRate": 150,
+						"marginBottom": 48,
+						"letterSpacing": 0
+					},
+					"h4": {
+						"fontSize": 21,
+						"lineHeightRate": 150,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"lead": {
+						"fontSize": 21,
+						"lineHeightRate": 150,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"note": {
+						"fontSize": 11,
+						"lineHeightRate": 170,
+						"marginBottom": 8,
+						"letterSpacing": 0
+					},
+					"regular": {
+						"fontSize": 16,
+						"lineHeightRate": 170,
+						"marginBottom": 24,
+						"letterSpacing": 0
+					},
+					"visual": {
+						"marginBottom": 24
+					}
+				},
+				"sectionMargin": {
+					"L": 120,
+					"M": 80,
+					"S": 70,
+					"XS": 40
+				}
+			}
+		]
+	},
+	"font": {
+		"choices": {
+			"family": ["Noto Sans JP", "ヒラギノ角ゴProN", "游ゴシック", "メイリオ"],
+			"feature": ["normal", "palt", "pkna"]
+		},
+		"default": {
+			"family": 0,
+			"feature": 0,
+			"yakuhanjp": false,
+			"previewFontSize": 14
+		}
+	}
+}

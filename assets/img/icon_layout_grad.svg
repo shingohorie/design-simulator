@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>icon/icon_layout</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,28 L6,29 L0,29 L0,28 L6,28 Z M15,28 L15,29 L9,29 L9,28 L15,28 Z M24,28 L24,29 L18,29 L18,28 L24,28 Z M8,26 L8,27 L0,27 L0,26 L8,26 Z M17,26 L17,27 L9,27 L9,26 L17,26 Z M26,26 L26,27 L18,27 L18,26 L26,26 Z M8,20 L8,25 L0,25 L0,20 L8,20 Z M17,20 L17,25 L9,25 L9,20 L17,20 Z M26,20 L26,25 L18,25 L18,20 L26,20 Z M16,15 L16,16 L0,16 L0,15 L16,15 Z M26,8 L26,15 L17,15 L17,8 L26,8 Z M16,13 L16,14 L0,14 L0,13 L16,13 Z M16,11 L16,12 L0,12 L0,11 L16,11 Z M16,8 L16,10 L0,10 L0,8 L16,8 Z M26,0 L26,4 L0,4 L0,0 L26,0 Z" id="path-1"></path>
+        <linearGradient x1="0%" y1="3.61232153%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FF5B00" offset="0%"></stop>
+            <stop stop-color="#2D0CC1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/icon_layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(6.000000, 2.000000)">
+            <path d="M0.5,0.5 L0.5,43.5 L35.5,43.5 L35.5,9.7830318 L25.5177268,0.5 L0.5,0.5 Z" id="Rectangle" stroke="#AAAAAA"></path>
+            <g id="on/off" transform="translate(5.000000, 9.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#A6A6A6" xlink:href="#path-1"></use>
+                <g id="#color/gradation/orange" mask="url(#mask-2)" fill="url(#linearGradient-3)">
+                    <g transform="translate(-11.000000, -11.000000)" id="base">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+            <path d="M26.5,1.20710678 L26.5,9.5 L34.7928932,9.5 L26.5,1.20710678 Z" id="Rectangle" stroke="#AAAAAA" fill="#EAEAEA"></path>
+        </g>
+    </g>
+</svg>

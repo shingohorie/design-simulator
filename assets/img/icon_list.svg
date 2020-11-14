@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>icon/icon_list</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,27 L6,28 L0,28 L0,27 L6,27 Z M8,23 L8,24 L0,24 L0,23 L8,23 Z M14,18 L14,20 L0,20 L0,18 L14,18 Z M20,13 L20,15 L0,15 L0,13 L20,13 Z M23,7 L23,10 L0,10 L0,7 L23,7 Z M26,0 L26,4 L0,4 L0,0 L26,0 Z" id="path-1"></path>
+        <linearGradient x1="0%" y1="3.61232153%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FF5B00" offset="0%"></stop>
+            <stop stop-color="#2D0CC1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/icon_list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_list" transform="translate(6.000000, 2.000000)">
+            <path d="M0.5,0.5 L0.5,43.5 L35.5,43.5 L35.5,9.7830318 L25.5177268,0.5 L0.5,0.5 Z" id="Rectangle" stroke="#AAAAAA"></path>
+            <g id="Group-2" transform="translate(5.000000, 10.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#A6A6A6" xlink:href="#path-1"></use>
+                <g id="#color/gradation/orange" mask="url(#mask-2)" fill="#aaaaaa">
+                    <g transform="translate(-11.000000, -12.000000)" id="base">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+            <path d="M25.5,1.20710678 L25.5,10.5 L34.7928932,10.5 L25.5,1.20710678 Z" id="Rectangle" stroke="#AAAAAA" fill="#EAEAEA"></path>
+        </g>
+    </g>
+</svg>

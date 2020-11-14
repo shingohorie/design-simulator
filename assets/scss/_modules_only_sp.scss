@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+/* ----------------------------------------------------------
+	main visual
+---------------------------------------------------------- */
+
+.mod-mainvisual {
+	$this: &;
+	padding-top: 0;
+	background-image: url(~@/assets/img/dummy/02_01_sp.jpg);
+
+	#{$this}__inner {
+		justify-content: flex-start;
+		min-height: 320px;
+		padding-top: 65px!important;
+		padding-bottom: 65px!important;
+	}
+}
+
+
+/* ----------------------------------------------------------
+	textGroup
+---------------------------------------------------------- */
+.mod-textGroup {
+	$this: &;
+
+	&__items {
+		display: block;
+		margin-top: 0;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-bottom: 0 !important;
+	}
+
+	&__item {
+		width: auto !important;
+		margin: 0 !important;
+	}
+
+	&__item:last-child {
+		#{$this}__texts {
+			>*:last-child {
+				margin-bottom: 0!important;
+			}
+		}
+	}
+
+	// [SPのみ] 弟要素のitemに見出しタグが含まれていた場合、その上マージンを優先させるための調整
+	&__item.collapse {
+		#{$this}__texts {
+			>*:last-child {
+				margin-bottom: 0!important;
+			}
+		}
+	}
+
+	// [SPのみ] 兄要素（見出しモジュール）のマージンを優先させるための調整
+	//  - もしも子要素に見出しタグがあったら、先頭の見出しタグの上マージンを消去する
+	.mod-secondaryHeader + &,
+	.mod-tertiaryHeader + & {
+		#{$this}__item:first-child {
+			.mod-quaternaryHeader {
+				margin-top: 0!important;
+			}
+		}
+	}
+}
+
+/* ----------------------------------------------------------
+	media
+---------------------------------------------------------- */
+.mod-mediaGroup {
+	$this: &;
+
+	&__items {
+		display: block !important;
+		margin-top: 0;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-bottom: 0 !important;
+	}
+
+	&__item {
+		width: auto !important;
+		margin-right: auto !important;
+		margin-left: auto !important;
+		margin-bottom: 0!important;
+		overflow: visible;
+	}
+}
+
+.mod-media {
+	$this: &;
+
+	&__inner {
+		display: block;
+	}
+
+	&__vis {
+		width: auto!important;
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+		margin-bottom: 15px;
+	}
+}
+
+.mod-media-v2 {
+	$this: &;
+
+	&__inner {
+		display: block;
+		overflow: hidden;
+	}
+
+	&__vis {
+		float: left;
+		margin-bottom: 15px;
+	}
+
+	&__detail {
+		display: contents;
+	}
+
+	&__texts {
+		display: contents;
+
+		> * {
+			&:first-child {
+				float: right;
+			}
+
+			&:nth-child(2) {
+				clear: both;
+			}
+		}
+	}
+
+	&.mod-media-v2--rightWards {
+		#{$this}__vis {
+			float: right;
+			margin-right: 0;
+		}
+
+		#{$this}__detail {
+			> * {
+				&:first-child {
+					float: left;
+				}
+			}
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------
+	card
+---------------------------------------------------------- */
+
+.mod-cardGroup {
+	$this: &;
+
+	&:not(.mod-cardGroup--single) {
+		#{$this}__items {
+			margin: 0 -10px 0;
+		}
+
+		#{$this}__item {
+			margin: 0 10px 0;
+		}
+	}
+
+	&.break-sp {
+		#{$this}__items {
+			display: block;
+			margin-top: 0;
+			margin-left: auto !important;
+			margin-right: auto !important;
+			margin-bottom: 0;
+		}
+
+		#{$this}__item {
+			width: auto !important;
+			margin: 0;
+		}
+	}
+}
+
+.mod-card {
+	$this: &;
+
+	&__vis {
+		margin-bottom: 15px;
+	}
+}
+
+.mod-card-v2 {
+	$this: &;
+
+	&__inner {
+		overflow: hidden;
+	}
+
+	&__vis {
+		float: left;
+		margin-bottom: 15px;
+	}
+
+	&__detail {
+		display: contents;
+	}
+
+	&__vis + &__detail {
+		#{$this}__texts {
+			display: contents;
+
+			> * {
+				&:first-child {
+					float: right;
+				}
+
+				&:nth-child(2) {
+					clear: both;
+				}
+			}
+		}
+	}
+}
+
+/* ----------------------------------------------------------
+	button
+---------------------------------------------------------- */
+
+.mod-button {
+	$this: &;
+
+	display: block;
+
+	span {
+		display: block;
+		min-width: 0;
+	}
+}
+
+.mod-buttonGroup {
+	$this: &;
+
+	&.mod-buttonGroup--single {
+		#{$this}__item {
+			width: auto;
+		}
+	}
+}
+
+[class^="mod-"] {
+	max-width: none;
+}

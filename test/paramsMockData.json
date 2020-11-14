@@ -1,0 +1,133 @@
+{
+	"default": {
+		"pc": {
+			"base": {
+				"fontSize": 15
+			},
+			"button": {
+				"fontSize": 15,
+				"lineHeightRate": 120,
+				"marginBottom": 50
+			},
+			"caption": {
+				"fontSize": 12,
+				"lineHeightRate": 130,
+				"marginBottom": 30
+			},
+			"config": {
+				"containerWidth": 1280,
+				"containerWidthUnit": "px",
+				"gridCols": 12,
+				"gridGap": 36,
+				"gridGapRate": 0.029032258,
+				"gridUnit": "px",
+				"gridWidth": 70,
+				"gridWidthRate": 0.056451613,
+				"jumpRate": 130,
+				"outerMargin": 20
+			},
+			"h1": {
+				"fontSize": 42,
+				"lineHeightRate": 130,
+				"marginBottom": 70
+			},
+			"h2": {
+				"fontSize": 32,
+				"lineHeightRate": 130,
+				"marginBottom": 60
+			},
+			"h3": {
+				"fontSize": 24,
+				"lineHeightRate": 130,
+				"marginBottom": 50
+			},
+			"h4": {
+				"fontSize": 20,
+				"lineHeightRate": 130,
+				"marginBottom": 40
+			},
+			"note": {
+				"fontSize": 10,
+				"lineHeightRate": 130,
+				"marginBottom": 30
+			},
+			"regular": {
+				"fontSize": 15,
+				"lineHeightRate": 130,
+				"marginBottom": 30
+			},
+			"sectionMargin": {
+				"L": 90,
+				"M": 60
+			},
+			"visual": {
+				"marginBottom": 20
+			}
+		},
+		"sp": {
+			"base": {
+				"fontSize": 14
+			},
+			"button": {
+				"fontSize": 15,
+				"lineHeightRate": 120,
+				"marginBottom": 30
+			},
+			"caption": {
+				"fontSize": 12,
+				"lineHeightRate": 130,
+				"marginBottom": 20
+			},
+			"config": {
+				"containerWidth": 375,
+				"containerWidthUnit": "px",
+				"gridCols": 6,
+				"gridGap": 30,
+				"gridGapRate": 0.092537313,
+				"gridUnit": "px",
+				"gridWidth": 31,
+				"gridWidthRate": 0.089552239,
+				"jumpRate": 113,
+				"outerMargin": 20
+			},
+			"h1": {
+				"fontSize": 22.6,
+				"lineHeightRate": 130,
+				"marginBottom": 50
+			},
+			"h2": {
+				"fontSize": 20,
+				"lineHeightRate": 130,
+				"marginBottom": 40
+			},
+			"h3": {
+				"fontSize": 17.8,
+				"lineHeightRate": 130,
+				"marginBottom": 30
+			},
+			"h4": {
+				"fontSize": 15.8,
+				"lineHeightRate": 130,
+				"marginBottom": 20
+			},
+			"note": {
+				"fontSize": 10,
+				"lineHeightRate": 130,
+				"marginBottom": 20
+			},
+			"regular": {
+				"fontSize": 15,
+				"lineHeightRate": 130,
+				"marginBottom": 20
+			},
+			"sectionMargin": {
+				"L": 60,
+				"M": 50,
+				"S": 40
+			},
+			"visual": {
+				"marginBottom": 15
+			}
+		}
+	}
+}

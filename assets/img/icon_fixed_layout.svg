@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>icon/icon_fixed</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32,8 L32,40 L16,40 L16,8 L32,8 Z M37.5355339,20.9644661 L38.2426407,21.6715729 L35.914,23.9994661 L41.2071068,24 L41.2071068,25 L35.914,24.9994661 L38.2426407,27.3284271 L37.5355339,28.0355339 L34.5,24.9994661 L34.2071068,25 L34.207,24.7064661 L34,24.5 L34.207,24.2924661 L34.2071068,24 L34.5,23.9994661 L37.5355339,20.9644661 Z M10.7071068,20.9644661 L13.742,23.9994661 L14,24 L14,24.2574661 L14.2426407,24.5 L14,24.7414661 L14,25 L13.742,24.9994661 L13.5355339,25.2071068 L10.7071068,28.0355339 L10,27.3284271 L12.328,24.9994661 L7,25 L7,24 L12.328,23.9994661 L10,21.6715729 L10.7071068,20.9644661 Z" id="path-1"></path>
+        <linearGradient x1="0%" y1="3.61232153%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FF5B00" offset="0%"></stop>
+            <stop stop-color="#2D0CC1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/icon_fixed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="frame" stroke="#AAAAAA" fill="#FFFFFF" x="4.5" y="4.5" width="39" height="39" rx="6"></rect>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#A6A6A6" xlink:href="#path-1"></use>
+        <g id="#color/gradation/orange" mask="url(#mask-2)" fill="#aaaaaa">
+            <rect id="base" x="0" y="0" width="48" height="48"></rect>
+        </g>
+    </g>
+</svg>

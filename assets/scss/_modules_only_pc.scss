@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* ----------------------------------------------------------
+	textGroup
+---------------------------------------------------------- */
+.mod-textGroup {
+	$this: &;
+
+	// [PCのみ] 兄要素（見出しモジュール）のマージンを優先させるための調整
+	//  - もしも子要素に見出しタグがあったら、先頭n件の見出しタグの上マージンを消去する
+	 .mod-secondaryHeader + &#{&}--single,
+	 .mod-tertiaryHeader + &#{&}--single {
+		#{$this}__item:nth-child(1) {
+			.mod-quaternaryHeader {
+				margin-top: 0!important;
+			}
+		}
+	}
+
+	 .mod-secondaryHeader + &#{&}--twoUp,
+	 .mod-tertiaryHeader + &#{&}--twoUp {
+		#{$this}__item:nth-child(-n+2) {
+			.mod-quaternaryHeader {
+				margin-top: 0!important;
+			}
+		}
+	}
+
+	 .mod-secondaryHeader + &#{&}--threeUp,
+	 .mod-tertiaryHeader + &#{&}--threeUp {
+		#{$this}__item:nth-child(-n+3) {
+			.mod-quaternaryHeader {
+				margin-top: 0!important;
+			}
+		}
+	}
+
+	 .mod-secondaryHeader + &#{&}--fourUp,
+	 .mod-tertiaryHeader + &#{&}--fourUp {
+		#{$this}__item:nth-child(-n+4) {
+			.mod-quaternaryHeader {
+				margin-top: 0!important;
+			}
+		}
+	}
+
+	&__texts {
+		> *:last-child {
+			margin-bottom: 0!important;
+		}
+	}
+
+	&:not(&--single) {
+		#{$this}__items {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 -20px;
+		}
+	}
+}

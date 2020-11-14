@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>icon/icon_guide</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16,8 L16,40 L12,40 C9.790861,40 8,38.209139 8,36 L8,12 C8,9.790861 9.790861,8 12,8 L16,8 Z M24,8 L24,40 L17,40 L17,8 L24,8 Z M32,8 L32,40 L25,40 L25,8 L32,8 Z M36,8 C38.209139,8 40,9.790861 40,12 L40,36 C40,38.209139 38.209139,40 36,40 L33,40 L33,8 L36,8 Z" id="path-1"></path>
+        <linearGradient x1="0%" y1="3.61232153%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FF5B00" offset="0%"></stop>
+            <stop stop-color="#2D0CC1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/icon_guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#AAAAAA" fill="#FFFFFF" x="4.5" y="4.5" width="39" height="39" rx="6"></rect>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#A6A6A6" xlink:href="#path-1"></use>
+        <g id="#color/gradation/orange" mask="url(#mask-2)" fill="#aaaaaa">
+            <rect id="base" x="0" y="0" width="48" height="48"></rect>
+        </g>
+    </g>
+</svg>
