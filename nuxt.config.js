@@ -1,4 +1,4 @@
-const basePath = process.env.NODE_ENV === 'static-production' ? '/designer/members_common/ds/' : '/';
+const basePath = '/';
 
 module.exports = {
 	//mode: 'universal',
@@ -11,7 +11,7 @@ module.exports = {
 		htmlAttrs: {
 			lang: 'ja'
 		},
-		titleTemplate: '%s | RJ Design Simulator',
+		titleTemplate: '%s | Design Simulator',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'robots', content: 'noindex, nofollow' },
