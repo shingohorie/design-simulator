@@ -24,6 +24,8 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ## Environment 
 ### Heroku
 アプリのデプロイ先。以下の環境変数を設定
+| KEY | VALUE |
+| ------------- | ------------- |
 | BASIC_AUTH_ID | 任意の値（BASIC認証ID） |
 | BASIC_AUTH_PW | 任意の値（BASIC認証PW） |
 | BASIC_ENABLED | true |
