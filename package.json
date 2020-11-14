@@ -1,11 +1,11 @@
 {
-   "name": "rj-design-simulator",
+   "name": "design-simulator",
    "version": "1.0.0",
    "engines": {
       "node": "12.16.x"
    },
    "description": "My world-class Nuxt.js project",
-   "author": "Rainbow Japan inc.",
+   "author": "Shingo Horie",
    "private": true,
    "scripts": {
       "dev": "cross-env NODE_ENV=development nodemon --ext js,vue server/index.js --watch server",
